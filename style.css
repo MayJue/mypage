@@ -35,17 +35,43 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
-	color: white;
+	text-align: center;
+	/* color: #261975; */
 }
 
 h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
+	/* color: #4B26C9; */
+}
+.hobbies{
+	float: left;
+  width: 20%;
+}
+.links{
+	float: right;
+  width: 20%;
+}
+.button{
+	display: block;
+  width: 30%;
+  border: none;
+  background-color: #323232;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
-
+body  {
+	background-image: url("background.jpeg");  /* replace none with url('image-url') to set a background image  */ */
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
 	padding: 1em;
@@ -56,10 +82,10 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #f2f2f2; /* Change the color to looks like Berea Background */
+	/* background: #f2f2f2; /* Change the color to looks like Berea Background */ */
 	color: black;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
+
 }
 
 /* You can alter the links within a div with the following syntax */

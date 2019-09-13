@@ -4,18 +4,19 @@
 <head>
         <title>May Jue</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script type="text/javascript" src="index.js"></script>
 	<script src="poem.js"></script>
 </head>
 
-<body>
+<body  background="background.jpeg">
         <div class="section" id="plan">
-                <h1 style ="color:black;">May Jue</h1>
-                <div class="minileft">
-                        <div><img src="may.jpg"/></div>
-                        <div><img src="codepic.jpg" width = "50%"/></div>
-                </div>
 
-		<p>  </p>
+                <h1>May Jue</h1>
+                <div class="minileft">
+                        <div id="drawing" ><img src="drawing.jpeg"/></div>
+                        <div id="drawing2" style="display:none" ><img src="drawing2.jpeg"/></div>
+                        <!-- <div><img src="codepic.jpg" width = "50%"/></div> -->
+                </div>
 
                 <h2>About Me</h2>
 
@@ -24,23 +25,35 @@
                    I was born in Thailand, but, I am Karen ethnic. </p>
 
                 <br></br>
-                <h2>My Hobbies</h2>
+                <div class="hobbies">
+                  <h2 >My Hobbies</h2>
 
-		                <li>Drawing</li>
-                    <li>Painting</li>
-                    <li>Crafting</li>
-                    <li>Hiking</li>
-                <br></br>
+  		                <li>Drawing</li>
+                      <li>Painting</li>
+                      <li>Crafting</li>
+                      <li>Hiking</li>
 
-                <h2>Links</h2>
 
-                  <li><a href="Resume.pdf">Resume</a></li>
-                  <li><a href="https://github.com/MayJue">Github</a></li>
+                </div>
+
+                <div class="links">
+                  <h2 >Links</h2>
+
+                    <li><a href="Resume.pdf">Resume</a></li>
+                    <li><a href="https://github.com/MayJue">Github</a></li>
+                    <li><a href="https://mayjuecsc426.blogspot.com/">Blog</a></li>
+                    <li><a href="https://www.linkedin.com/in/may-jue-8a11bb170/">LinkedIn</a></li>
+
+                </div>
+
+                <div>
+                  <button class="button" onclick= "change()"> Next Picture</button>
+                </div>
 
 
 
         </div>
-
+<!--
         <div class="section" id="poem">
 		<p>An interactive poem about version control:</p>
 		<div id="line">
@@ -110,7 +123,7 @@
                 <li><a href="https://help.github.com/articles/git-and-github-learning-resources/">GitHub Help</a></li>
                 </p>
                 </ul>
-        </div>
+        </div> -->
 
 </body>
 
