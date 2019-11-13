@@ -46,8 +46,10 @@ h2 {		     /* This styles the headers within the page */
   width: 20%;
 }
 .links{
-	float: right;
-  width: 20%;
+	margin-top: 50px;
+	float: center;
+  /* width: 20%; */
+	background-color: #999796;
 }
 .button{
 	display: block;
