@@ -1,1 +1,1 @@
-https://mayjue.github.io/
+https://mayjue.github.io/index.html
