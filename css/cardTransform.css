@@ -1,0 +1,61 @@
+/* Flipping cards */
+
+.left {
+	position: absolute;
+
+}
+.middle {
+	position: absolute;
+	left: 34%;
+	/* transform: translate(-50%, -50%); */
+}
+.right {
+	position: absolute;
+	/* top:50%; */
+	left: 66%;
+	/* transform: translate(-50%, -50%); */
+
+}
+
+.card {
+	position: absolute;
+	cursor: pointer;
+	width: 30%;
+	height: 50%;
+}
+.front,
+.back {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	transition: transform 0.6s linear;
+
+}
+
+
+.front img {
+	width:100%;
+	height: 100%;
+}
+.fornt{
+	transform: perspective(600px) rotateY(0deg);
+}
+.back{
+	background: #0082cb;
+	transform: perspective(600px) rotateY(180deg);
+}
+.back-content {
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+.card:hover > .front {
+	transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back {
+	transform: perspective(600px) rotateY(0deg);
+}
+/* end fliping cards */
