@@ -1,1 +1,3 @@
-https://mayjue.github.io/index.html
+---
+permalink: template/index.html
+---
